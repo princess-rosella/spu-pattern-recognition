@@ -1,0 +1,19 @@
+{
+  "name": "spu-pattern-recognition",
+  "version": "0.0.1",
+  "description": "Javascript Pattern Recognition library",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "devDependencies": {
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^10.14.0",
+    "mocha": "^6.1.4"
+  },
+  "scripts": {
+    "prepare": "tsc -p lib.tsconfig.json",
+    "test": "tsc -p tests.tsconfig.json && ./node_modules/mocha/bin/mocha tests.out/tests/index.js"
+  },
+  "author": "Princess Rosella",
+  "license": "MIT",
+  "dependencies": {}
+}
